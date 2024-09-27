@@ -101,7 +101,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
     return AppBar(
       centerTitle: true,
       title: Text(
-        'All in one Gallery',
+        'All In One Gallery',
         style: TextStyle(
           fontSize: 22,
           fontWeight: FontWeight.bold,
