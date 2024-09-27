@@ -17,7 +17,7 @@ jobs:
       run: flutter pub get
     
     - name: Build web
-      run: flutter build web
+      run: flutter build web --base-href "/pixabay_gallery/"
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
